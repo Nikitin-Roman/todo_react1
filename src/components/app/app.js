@@ -78,8 +78,8 @@ export default class App extends Component {
     onSearchChange = (term) => {
         this.setState({term});
     };
-    onFilterChange = (term) => {
-        this.setState({term});
+    onFilterChange = (filter) => {
+        this.setState({filter});
     };
     
     search(items, term) {
